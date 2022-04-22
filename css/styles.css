@@ -1,0 +1,261 @@
+body{
+font-family:"Montserrat";
+text-align: center;
+
+
+  }
+  #title{
+background-color: #ff4c68;
+color:#fff;
+
+}
+/*_______________________________SECTIONS____________________________________________-*/
+
+
+.coloured-section{
+
+background-color:#ff4c68;
+color: #fff;
+
+}
+
+
+
+.white-section{
+
+background-color: #fff;
+
+
+}
+
+
+
+
+
+
+
+.container-fluid{
+
+padding: 3% 15% 7%;
+
+}
+
+.navbar-brand
+{
+
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+
+/*to add space between the titlt tidog and the text below it */
+.navbar{
+  padding-bottom:0 0 5rem;
+}
+
+.nav-item{
+padding: 0 3rem;
+}
+/* download button  */
+.Download-button{
+
+  margin: 3% 10% 5% 0;
+}
+/*h1
+{
+
+font-family: "Montserrat-Extra-bold 800";
+  font-size:4rem;
+  line-height: 1.5
+}*/
+h1,h2,h3,h4,h5,h6
+{
+  font-family: "Montserrat";
+  font-style:bold;
+  font-weight: 800;
+
+
+
+}
+/*h2
+{
+
+
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+*/
+/*h3{
+font-family: "Montserrat";
+font-style:bold;
+font-weight: 800;
+
+
+}*/
+.big-heading{
+  font-family: "Montserrat";
+  font-style:bold;
+  font-weight: 800;
+
+   font-size:4rem;
+    line-height: 1.5
+
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+p{
+  color: #Bf8f8f;
+}
+/* image size change that of phone */
+.title-image{
+
+  width:25%;
+  transform: rotate(25deg);
+position: absolute;
+right: 28%;
+
+}
+/*to change features that is the place to insert bulleye heart shape*/
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+
+}
+
+.feature-text
+{
+font-size: 1.5rem;
+
+}
+/*  sp that the image in the title section hides behind*/
+
+
+
+
+
+
+
+.feature-box{
+  padding: 5%;
+}
+
+/*to change the icon color of bulleye checkmark hear*/
+.icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icons:hover{
+color:#ff4c68;
+
+}
+
+/*____________________________________________THIRD SECTION STYLING________________________________________________________________*/
+/*tetimonial section*/
+#testimonials
+{
+
+
+background-color:#ef8172;
+color: #fff;
+
+}
+.testimonial-image
+{
+  width: 10%;
+border-radius: 100%;
+margin: 2rem;
+
+}
+.testimonial-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+
+
+
+
+}
+
+
+
+
+#press{
+
+  background-color: #ef8172;
+
+
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+  padding-bottom: 3%;
+}
+.carousel-item{
+  padding:7rem 15rem;
+}
+/*______________________________TO ADD SPACE IN above and below th ethree boxes containing sign up _______________________________________________*/
+#pricing{
+  padding: 10rem 15rem;
+
+}
+/*to add space between the text above box and in between*/
+.pricing-coloum{
+  padding: 3% 2%;
+}
+@media (max-width:1216px)
+
+ {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
+/*________________________second last design*/
+#cta
+{
+/*background-color:#ff4c68;
+color: #fff;*/
+
+padding: 70px 15px ;
+
+
+}
+.cta-heading
+{
+  font-family: "Montserrat";
+  font-style: bold;
+  font-size: 3rem;
+  line-height: 3;
+
+}
+.lbt
+{
+  margin-right: 10px;
+}
+
+/*_______________________________last one*/
+
+#footer
+{
+background-color: #fff;
+padding:7% 15%;
+
+
+
+}
+.social-icon
+{
+  margin: 20px 10px;
+}
